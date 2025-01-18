@@ -32,6 +32,13 @@
     "href": "posts/xai-explained/index.html#lime-local-interpretable-model-agnostic-explanations",
     "title": "The Evolution of Explainable AI (XAI) in Modern Machine Learning",
     "section": "2. LIME (Local Interpretable Model-Agnostic Explanations)",
+    "text": "2. LIME (Local Interpretable Model-Agnostic Explanations)\nLIME approximates a model locally by building an interpretable surrogate model (e.g., linear regression) around a specific prediction. This method is particularly useful for black-box models like neural networks.\n\nExample: LIME explains why an AI system classifies an email as spam by showing the words most likely to trigger the classification.\n\n\n\n\n\nFigure 2: LIME explanation plot highlighting feature contributions to an individual prediction."
+  },
+  {
+    "objectID": "posts/xai-explained/index.html#lime-local-interpretable-model-agnostic-explanations-1",
+    "href": "posts/xai-explained/index.html#lime-local-interpretable-model-agnostic-explanations-1",
+    "title": "The Evolution of Explainable AI (XAI) in Modern Machine Learning",
+    "section": "2. LIME (Local Interpretable Model-Agnostic Explanations)",
     "text": "2. LIME (Local Interpretable Model-Agnostic Explanations)\nLIME approximates a model locally by building an interpretable surrogate model (e.g., linear regression) around a specific prediction. This method is particularly useful for black-box models like neural networks.\n\nExample: LIME explains why an AI system classifies an email as spam by showing the words most likely to trigger the classification.\n\n\n\n\nFigure 2: LIME explanation plot highlighting feature contributions to an individual prediction."
   },
   {

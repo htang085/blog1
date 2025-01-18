@@ -77,12 +77,15 @@ LIME approximates a model locally by building an interpretable surrogate model (
 
 - **Example**: LIME explains why an AI system classifies an email as spam by showing the words most likely to trigger the classification.
 
-<div style="display: flex; flex-direction: column; align-items: flex-start; margin-left: 50px;">
+<div style="text-align: left;">
   <img src="lime_explanation_plot.png" alt="LIME Explanation Plot" width="600" />
-  <p style="text-align: center; font-size: 14px; color: #555; margin-top: 10px;">
-    Figure 2: LIME explanation plot highlighting feature contributions to an individual prediction.
-  </p>
 </div>
+<p style="text-align: center; font-size: 14px; color: #555; margin-top: 10px;">
+  Figure 2: LIME explanation plot highlighting feature contributions to an individual prediction.
+</p>
+
+
+
 
 
 ## 3. Feature Importance Visualizations
