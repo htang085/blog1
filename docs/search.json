@@ -7,27 +7,6 @@
     "text": "About this blog"
   },
   {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
-    "section": "",
-    "text": "Since this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts.\nWelcome to my first blog post! In this post, I’ll share what this blog is about and what you can expect here."
-  },
-  {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
-    "title": "Post With Code",
-    "section": "",
-    "text": "This is a post with executable code."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Blog",
-    "section": "",
-    "text": "Welcome to my blog! Here, I share insights, tutorials, and my journey in data science.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nJan 18, 2025\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nThe Evolution of Explainable AI (XAI) in Modern Machine Learning\n\n\n\n\n\n\nMachine Learning\n\n\nData Science\n\n\nExplainable AI\n\n\n\n\n\n\n\n\n\nJan 18, 2025\n\n\nHui Tang\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nBlog\n\n\n\n\n\n\n\n\n\nJan 15, 2025\n\n\nHui Tang\n\n\n\n\n\n\nNo matching items"
-  },
-  {
     "objectID": "posts/xai-explained/index.html",
     "href": "posts/xai-explained/index.html",
     "title": "The Evolution of Explainable AI (XAI) in Modern Machine Learning",
@@ -82,5 +61,12 @@
     "title": "The Evolution of Explainable AI (XAI) in Modern Machine Learning",
     "section": "Autonomous Vehicles",
     "text": "Autonomous Vehicles\n\nXAI clarifies why self-driving cars make certain navigation decisions, which is crucial for safety."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Welcome to my blog! Here, I share insights, tutorials, and my journey in data science.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Evolution of Explainable AI (XAI) in Modern Machine Learning\n\n\n\n\n\n\nMachine Learning\n\n\nData Science\n\n\nExplainable AI\n\n\n\n\n\n\n\n\n\nJan 18, 2025\n\n\nHui Tang\n\n\n\n\n\n\nNo matching items"
   }
 ]
