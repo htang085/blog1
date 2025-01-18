@@ -25,6 +25,62 @@
     "href": "index.html",
     "title": "Blog",
     "section": "",
-    "text": "Welcome to my blog! Here, I share insights, tutorials, and my journey in data science.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nJan 18, 2025\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nBlog\n\n\n\n\n\n\n\n\n\nJan 15, 2025\n\n\nHui Tang\n\n\n\n\n\n\nNo matching items"
+    "text": "Welcome to my blog! Here, I share insights, tutorials, and my journey in data science.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nJan 18, 2025\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nThe Evolution of Explainable AI (XAI) in Modern Machine Learning\n\n\n\n\n\n\nMachine Learning\n\n\nData Science\n\n\nExplainable AI\n\n\n\n\n\n\n\n\n\nJan 18, 2025\n\n\nHui Tang\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nBlog\n\n\n\n\n\n\n\n\n\nJan 15, 2025\n\n\nHui Tang\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/xai-explained/index.html",
+    "href": "posts/xai-explained/index.html",
+    "title": "The Evolution of Explainable AI (XAI) in Modern Machine Learning",
+    "section": "",
+    "text": "Artificial Intelligence (AI) is transforming industries by driving decisions in healthcare, finance, and transportation. However, many AI systems operate as “black boxes,” raising concerns about trust, fairness, and accountability. Explainable AI (XAI) is designed to address these challenges by providing transparency and interpretability in machine learning models.\nIn this blog, we’ll explore the evolution of XAI, the tools and methods it offers, real-world applications, and the challenges we still face in achieving fully explainable AI."
+  },
+  {
+    "objectID": "posts/xai-explained/index.html#shap-shapley-additive-explanations",
+    "href": "posts/xai-explained/index.html#shap-shapley-additive-explanations",
+    "title": "The Evolution of Explainable AI (XAI) in Modern Machine Learning",
+    "section": "SHAP (SHapley Additive Explanations)",
+    "text": "SHAP (SHapley Additive Explanations)\n\nA method to attribute model predictions to individual features.\nExample:\n\nA SHAP plot might show that “age” contributes positively to loan approval, while “credit score” contributes negatively."
+  },
+  {
+    "objectID": "posts/xai-explained/index.html#lime-local-interpretable-model-agnostic-explanations",
+    "href": "posts/xai-explained/index.html#lime-local-interpretable-model-agnostic-explanations",
+    "title": "The Evolution of Explainable AI (XAI) in Modern Machine Learning",
+    "section": "LIME (Local Interpretable Model-agnostic Explanations)",
+    "text": "LIME (Local Interpretable Model-agnostic Explanations)\n\nExplains individual predictions by approximating the model locally with an interpretable model."
+  },
+  {
+    "objectID": "posts/xai-explained/index.html#feature-importance-visualizations",
+    "href": "posts/xai-explained/index.html#feature-importance-visualizations",
+    "title": "The Evolution of Explainable AI (XAI) in Modern Machine Learning",
+    "section": "Feature Importance Visualizations",
+    "text": "Feature Importance Visualizations\n\nMany machine learning frameworks (e.g., scikit-learn, XGBoost) offer built-in tools to rank feature importance."
+  },
+  {
+    "objectID": "posts/xai-explained/index.html#counterfactual-explanations",
+    "href": "posts/xai-explained/index.html#counterfactual-explanations",
+    "title": "The Evolution of Explainable AI (XAI) in Modern Machine Learning",
+    "section": "Counterfactual Explanations",
+    "text": "Counterfactual Explanations\n\nAnswer “what if” scenarios. For example, “What would need to change for this loan application to be approved?”"
+  },
+  {
+    "objectID": "posts/xai-explained/index.html#healthcare",
+    "href": "posts/xai-explained/index.html#healthcare",
+    "title": "The Evolution of Explainable AI (XAI) in Modern Machine Learning",
+    "section": "Healthcare",
+    "text": "Healthcare\n\nXAI helps interpret models used for diagnosing diseases. For instance, SHAP can identify which symptoms contributed most to a cancer diagnosis."
+  },
+  {
+    "objectID": "posts/xai-explained/index.html#finance",
+    "href": "posts/xai-explained/index.html#finance",
+    "title": "The Evolution of Explainable AI (XAI) in Modern Machine Learning",
+    "section": "Finance",
+    "text": "Finance\n\nLoan approval systems use XAI to explain why an applicant was rejected, promoting fairness and transparency."
+  },
+  {
+    "objectID": "posts/xai-explained/index.html#autonomous-vehicles",
+    "href": "posts/xai-explained/index.html#autonomous-vehicles",
+    "title": "The Evolution of Explainable AI (XAI) in Modern Machine Learning",
+    "section": "Autonomous Vehicles",
+    "text": "Autonomous Vehicles\n\nXAI clarifies why self-driving cars make certain navigation decisions, which is crucial for safety."
   }
 ]
