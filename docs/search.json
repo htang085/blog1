@@ -11,56 +11,42 @@
     "href": "posts/xai-explained/index.html",
     "title": "The Evolution of Explainable AI (XAI) in Modern Machine Learning",
     "section": "",
-    "text": "Artificial Intelligence (AI) is transforming industries by driving decisions in healthcare, finance, and transportation. However, many AI systems operate as “black boxes,” raising concerns about trust, fairness, and accountability. Explainable AI (XAI) is designed to address these challenges by providing transparency and interpretability in machine learning models.\nIn this blog, we’ll explore the evolution of XAI, the tools and methods it offers, real-world applications, and the challenges we still face in achieving fully explainable AI."
+    "text": "Artificial Intelligence (AI) has revolutionized industries, enabling advancements in healthcare, finance, transportation, and beyond. However, despite its transformative potential, many AI systems operate as “black boxes”, meaning their internal decision-making processes remain opaque. This lack of transparency raises pressing concerns about fairness, accountability, and trust in AI.\nExplainable AI (XAI) addresses these challenges by making AI systems more interpretable and their decisions more understandable. In this blog, we’ll delve into the evolution of XAI, explore its key concepts and methods, analyze real-world applications, and consider the challenges it faces as it moves toward widespread adoption."
+  },
+  {
+    "objectID": "posts/xai-explained/index.html#key-concepts-in-xai",
+    "href": "posts/xai-explained/index.html#key-concepts-in-xai",
+    "title": "The Evolution of Explainable AI (XAI) in Modern Machine Learning",
+    "section": "Key Concepts in XAI",
+    "text": "Key Concepts in XAI\n\nTransparency\nTransparency ensures that the decision-making process of an AI system is accessible and visible. For instance, rule-based systems like decision trees are inherently transparent, whereas neural networks often require post-hoc interpretability techniques to make sense of their complex layers.\n\n\nInterpretability\nInterpretability measures how easily a human can understand a model’s predictions or internal mechanics. For example, a simple linear regression model is more interpretable than a deep learning model because its relationships are mathematically explicit.\n\n\nTrustworthiness\nTrust in AI systems is built when users feel confident in their decisions. Trustworthiness is closely linked to transparency and interpretability. For example, a hospital using AI for cancer diagnosis needs to ensure its system explains why a certain tumor is classified as malignant.\nThese principles form the foundation of XAI, bridging the gap between sophisticated algorithms and human understanding."
   },
   {
     "objectID": "posts/xai-explained/index.html#shap-shapley-additive-explanations",
     "href": "posts/xai-explained/index.html#shap-shapley-additive-explanations",
     "title": "The Evolution of Explainable AI (XAI) in Modern Machine Learning",
-    "section": "SHAP (SHapley Additive Explanations)",
-    "text": "SHAP (SHapley Additive Explanations)\n\nA method to attribute model predictions to individual features.\nExample:\n\nA SHAP plot might show that “age” contributes positively to loan approval, while “credit score” contributes negatively."
+    "section": "1. SHAP (SHapley Additive Explanations)",
+    "text": "1. SHAP (SHapley Additive Explanations)\nSHAP uses concepts from cooperative game theory to assign importance values to features based on their contribution to the model’s predictions. SHAP provides both global explanations (understanding the overall model behavior) and local explanations (analyzing individual predictions).\n\nExample: For a loan approval model, a SHAP plot might reveal that “income” positively contributes to approval, while “credit history” negatively affects it.\n\n\n\n\nFigure 1: SHAP summary plot showing feature importance and their contributions to model predictions."
   },
   {
     "objectID": "posts/xai-explained/index.html#lime-local-interpretable-model-agnostic-explanations",
     "href": "posts/xai-explained/index.html#lime-local-interpretable-model-agnostic-explanations",
     "title": "The Evolution of Explainable AI (XAI) in Modern Machine Learning",
-    "section": "LIME (Local Interpretable Model-agnostic Explanations)",
-    "text": "LIME (Local Interpretable Model-agnostic Explanations)\n\nExplains individual predictions by approximating the model locally with an interpretable model."
+    "section": "2. LIME (Local Interpretable Model-Agnostic Explanations)",
+    "text": "2. LIME (Local Interpretable Model-Agnostic Explanations)\nLIME approximates a model locally by building an interpretable surrogate model (e.g., linear regression) around a specific prediction. This method is particularly useful for black-box models like neural networks.\n\nExample: LIME explains why an AI system classifies an email as spam by showing the words most likely to trigger the classification.\n\n\n\n\nFigure 2: LIME explanation plot highlighting feature contributions to an individual prediction."
   },
   {
     "objectID": "posts/xai-explained/index.html#feature-importance-visualizations",
     "href": "posts/xai-explained/index.html#feature-importance-visualizations",
     "title": "The Evolution of Explainable AI (XAI) in Modern Machine Learning",
-    "section": "Feature Importance Visualizations",
-    "text": "Feature Importance Visualizations\n\nMany machine learning frameworks (e.g., scikit-learn, XGBoost) offer built-in tools to rank feature importance."
+    "section": "3. Feature Importance Visualizations",
+    "text": "3. Feature Importance Visualizations\nMany machine learning libraries, such as scikit-learn and XGBoost, include built-in tools to visualize feature importance. These tools help identify the most impactful features in a dataset. In the case of Random Forest, feature importance is derived from the average decrease in impurity across all the decision trees in the forest. This makes it a reliable measure for understanding how different features contribute to the model’s predictions.\n\n\n\nFigure 3: Feature importance plot from a Random Forest Classifier. Each bar represents the average decrease in impurity associated with the corresponding feature."
   },
   {
     "objectID": "posts/xai-explained/index.html#counterfactual-explanations",
     "href": "posts/xai-explained/index.html#counterfactual-explanations",
     "title": "The Evolution of Explainable AI (XAI) in Modern Machine Learning",
-    "section": "Counterfactual Explanations",
-    "text": "Counterfactual Explanations\n\nAnswer “what if” scenarios. For example, “What would need to change for this loan application to be approved?”"
-  },
-  {
-    "objectID": "posts/xai-explained/index.html#healthcare",
-    "href": "posts/xai-explained/index.html#healthcare",
-    "title": "The Evolution of Explainable AI (XAI) in Modern Machine Learning",
-    "section": "Healthcare",
-    "text": "Healthcare\n\nXAI helps interpret models used for diagnosing diseases. For instance, SHAP can identify which symptoms contributed most to a cancer diagnosis."
-  },
-  {
-    "objectID": "posts/xai-explained/index.html#finance",
-    "href": "posts/xai-explained/index.html#finance",
-    "title": "The Evolution of Explainable AI (XAI) in Modern Machine Learning",
-    "section": "Finance",
-    "text": "Finance\n\nLoan approval systems use XAI to explain why an applicant was rejected, promoting fairness and transparency."
-  },
-  {
-    "objectID": "posts/xai-explained/index.html#autonomous-vehicles",
-    "href": "posts/xai-explained/index.html#autonomous-vehicles",
-    "title": "The Evolution of Explainable AI (XAI) in Modern Machine Learning",
-    "section": "Autonomous Vehicles",
-    "text": "Autonomous Vehicles\n\nXAI clarifies why self-driving cars make certain navigation decisions, which is crucial for safety."
+    "section": "4. Counterfactual Explanations",
+    "text": "4. Counterfactual Explanations\nCounterfactuals answer “what if” questions, such as: “What changes would result in a different outcome?” These explanations are actionable and help users understand how to achieve a desired result.\n\nExample: A counterfactual explanation for a rejected loan might suggest increasing income by $5,000 or reducing outstanding debt by 20%.\n\n\n\n\nFigure 4: Counterfactual explanation for a rejected loan, comparing current values to desired values to achieve approval."
   },
   {
     "objectID": "index.html",
